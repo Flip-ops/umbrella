@@ -1,3 +1,8 @@
+
+#To use, for example, add link for this file in Raw-format after below command
+#firewall banmalware
+#Example command: firewall banmalware https://raw.githubusercontent.com/Flip-ops/umbrella/main/umbrella.list
+
 #FIREHOLE
 https://iplists.firehol.org/files/alienvault_reputation.ipset
 https://iplists.firehol.org/files/bds_atif.ipset

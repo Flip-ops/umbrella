@@ -30,11 +30,11 @@ https://iplists.firehol.org/files/urlvir.ipset
 https://raw.githubusercontent.com/jumpsmm7/GeneratedAdblock/master/IPlist.list
 
 #yoyo.org IPs - ADs
-https://pgl.yoyo.org/adservers/iplist.php?ipformat=plain&showintro=1&mimetype=plaintext
+#https://pgl.yoyo.org/adservers/iplist.php?ipformat=plain&showintro=1&mimetype=plaintext
 
 #oisd.nl - Ads, (Mobile) App Ads.
 #https://hosts.oisd.nl/basic/
-https://abp.oisd.nl/
+#https://abp.oisd.nl/
 
 #IPsum Threat Intelligence Feed based on 30+ different publicly available
 #Using Mailtrail (a malicious traffic detection system, utilizing publicly available (black)lists
@@ -63,7 +63,8 @@ https://threatview.io/Downloads/IP-High-Confidence-Feed.txt
 https://sigs.interserver.net/iprbl.txt
 
 #CISCO TALOS CYBERSEC COMPANY SNORT-RULES:
-https://www.talosintelligence.com/documents/ip-blacklist
+#https://www.talosintelligence.com/documents/ip-blacklist
+#https://snort-org-site.s3.amazonaws.com/production/document_files/files/000/024/662/original/ip_filter.blf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAU7AK5ITMJQBJPARJ%2F20230625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230625T124930Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7b20b5b3f1c59f5c446076c6851097aa577ae788d83537052c6c0e1cddecc9e2
 
 #PROOFPOINT CYBERSEC COMPANY - SOME DUPLICATES BUT SUPPOSEDLY DAILY UPDATES ON SOME OF ABOVE LIST 
 https://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt

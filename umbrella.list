@@ -37,8 +37,11 @@ https://pgl.yoyo.org/adservers/iplist.php?ipformat=plain&showintro=1&mimetype=pl
 https://abp.oisd.nl/
 
 #IPsum Threat Intelligence Feed based on 30+ different publicly available
-#Using Mailtrail (a malicious traffic detection system, utilizing publicly available (black)lists containing malicious and/or generally suspicious trails, along with static trails compiled from various AV reports and custom user defined lists, )
-#Below are preprocessed raw IP lists based on number of blacklist occurrences (e.g. levels/3.txt holds IP addresses that can be found on 3 or more blacklists).
+#Using Mailtrail (a malicious traffic detection system, utilizing publicly available (black)lists
+# containing malicious and/or generally suspicious trails, 
+# along with static trails compiled from various AV reports and custom user defined lists)
+#Below are preprocessed raw IP lists based on number of blacklist occurrences 
+# (e.g. levels/3.txt holds IP addresses that can be found on 3 or more blacklists).
 https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt
 https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt
 https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt
@@ -61,7 +64,6 @@ https://sigs.interserver.net/iprbl.txt
 
 #CISCO TALOS CYBERSEC COMPANY SNORT-RULES:
 https://www.talosintelligence.com/documents/ip-blacklist
-https://snort-org-site.s3.amazonaws.com/production/document_files/files/000/021/051/original/ip_filter.blf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAU7AK5ITMJQBJPARJ%2F20230128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230128T100638Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c02bc5424c37b5af7ac61a0291b2066874c6e685b9c1ea453b9bf741fa035e6e
 
 #PROOFPOINT CYBERSEC COMPANY - SOME DUPLICATES BUT SUPPOSEDLY DAILY UPDATES ON SOME OF ABOVE LIST 
 https://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt

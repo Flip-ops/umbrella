@@ -29,12 +29,22 @@ https://iplists.firehol.org/files/urlvir.ipset
 #jumpsmm7 AKA SomeWhereOverTheRainBow
 https://raw.githubusercontent.com/jumpsmm7/GeneratedAdblock/master/IPlist.list
 
-#stamparm
+#yoyo.org IPs - ADs
+https://pgl.yoyo.org/adservers/iplist.php?ipformat=plain&showintro=1&mimetype=plaintext
+
+#oisd.nl - Ads, (Mobile) App Ads.
+#https://hosts.oisd.nl/basic/
+https://abp.oisd.nl/
+
+#IPsum Threat Intelligence Feed based on 30+ different publicly available
+#Using Mailtrail (a malicious traffic detection system, utilizing publicly available (black)lists containing malicious and/or generally suspicious trails, along with static trails compiled from various AV reports and custom user defined lists, )
+#Below are preprocessed raw IP lists based on number of blacklist occurrences (e.g. levels/3.txt holds IP addresses that can be found on 3 or more blacklists).
 https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt
 https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt
 https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt
 https://raw.githubusercontent.com/stamparm/ipsum/master/levels/6.txt
 https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt
+https://raw.githubusercontent.com/stamparm/ipsum/master/levels/8.txt
 
 #ABUSE.CH
 #https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt
@@ -58,13 +68,3 @@ https://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt
 
 #DigitalSide Threat-Intel - OSINT Project / Open Source Cyber Threat Intelligence Project
 https://osint.digitalside.it/Threat-Intel/lists/latestips.txt
-
-
-
-#NOT IN USE BELOW
-
-#PROBABLY DOESN'T WORK SINCE IP NOT SEPERATED BY NEW LINE - VoIP Blacklist
-#https://voipbl.org/update
-
-#SEEMS DEAD
-#https://block.energized.pro/extensions/ips/formats/list.txt
